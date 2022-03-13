@@ -5,7 +5,7 @@ const { Tag, Product, ProductTag } = require('../../models');
 
 router.get('/', (req, res) => {
   Tag.findAll({
-    include: [ { model: Product }]
+    include: [ { model: Product, attributes: [ 'id', 'product_name', 'price', 'stock' ] } ]
   })
   .then(tagData => {
     if (!tagData) {
@@ -40,7 +40,7 @@ router.get('/:id', (req, res) => {
 
 router.post('/', (req, res) => {
   Tag.create({
-    tag_name: req.params.tag_name
+    tag_name: req.body.tag_name
   })
   .then(tagData => res.json(tagData))
   .catch(err => {
