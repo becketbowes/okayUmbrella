@@ -1,7 +1,7 @@
 # okayUmbrella 1.0
   ![Creative Commons Attribution License, Sun Mar 13 2022 20:52:09 GMT-0400 (Eastern Daylight Time)](./assets/img/readme/cc-by.png)
 
-  ![okayUmbrella screenshot](./assets/img/readme/okayUmbrella2.jpg)
+  ![okayUmbrella screenshot](./assets/img/readme/okayumbrella.png)
 
   [screencastify walk through](https://watch.screencastify.com/v/Dlg1zxCzCZDz9XNnk2ay)
 
